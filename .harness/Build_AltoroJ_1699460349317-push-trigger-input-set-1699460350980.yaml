@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_AltoroJ_1699460349317-push-trigger-input-set
+  identifier: Build_AltoroJ_1699460349317pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_AltoroJ_1699460349317
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
