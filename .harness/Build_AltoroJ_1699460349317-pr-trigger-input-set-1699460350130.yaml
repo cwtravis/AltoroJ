@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_AltoroJ_1699460349317-pr-trigger-input-set
+  identifier: Build_AltoroJ_1699460349317prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_AltoroJ_1699460349317
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
